@@ -1,0 +1,37 @@
+:root {
+  --primary-colour: #3e6500;
+  --secondary-colour: #c8d7a9;
+  --accent-colour: #fc8586;
+  --primary-font: "Fredoka", sans-serif;
+  --secondary-font: "Gaegu", sans-serif;
+}
+
+body {
+  background-color: #fdfeef;
+}
+.container {
+  max-width: 960px;
+}
+nav {
+  font-size: 20px;
+  font-family: var(--primary-font);
+  padding: 0;
+}
+nav ul {
+  margin-top: 90px;
+  padding-left: 12px;
+}
+nav li {
+  display: inline;
+  margin-left: 30px;
+  line-height: 30px;
+  list-style: none;
+}
+nav a {
+  color: var(--primary-colour);
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+nav a:hover {
+  color: var(--accent-colour);
+}
